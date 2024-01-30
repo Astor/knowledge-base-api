@@ -1,6 +1,6 @@
 # Knowledge Base API
 
-A knowledge base assistant which utilizes Open AI to load a document, to have conversations with said document.
+A knowledge base assistant which utilizes Open AI to load a document, and enable conversations with said document.
 
 ## Setup
 Install node version manager to install Node on your system. 
@@ -28,6 +28,12 @@ nvm version
 install Node 18.
 ```sh
 nvm install 18
+```
+
+## Open AI Setup
+Create a .env file in the root of the project and add your Open AI API Key to operate the server.
+```sh
+OPENAI_API_KEY=sk-...
 ```
 
 ## Run
